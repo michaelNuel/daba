@@ -1,32 +1,23 @@
-import { Box } from "@chakra-ui/react";
-import Navbar from "./Navbar";
+import { Box, Link } from "@chakra-ui/react";
 
+type NavlistProps ={
+  linkstitle :{
+    id: string
+    title: string
+  }[]
+}
  
+export default function Navlist(props:NavlistProps) {
 
-
-export default function Navlist() {
-  const linksTitle = [
-    {
-      id:"1",
-      title: "Blog"
-    },
-    {
-      id:"2",
-      title:"Investors Update"
-    }, 
-    {
-      id:"3",
-      title:"Patner with us"
-    },
-    {
-      id:"4",
-      title:"Raise on daba"
-    }, 
-    
-  ]
   return (
-    <Box>
-      <Navbar linkstitle ={linksTitle} />
-    </Box>
+    <>
+      {props.linkstitle.map( titles => {
+        return (
+          <Box key={titles.id} as="li">
+            <Link fontSize={"16px"}>{titles.title}</Link>
+          </Box>
+        )
+      })}
+    </>
   )
 }

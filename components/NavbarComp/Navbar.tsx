@@ -1,16 +1,30 @@
 import { Box, Flex, Image, Link, Text } from "@chakra-ui/react";
 import Buttons from "../ButtonComp/Buttons";
+import Navlist from "./Navlist";
 
 
-type NavbarProps ={
-  linkstitle :{
-    title:string
-    id: string
-  }[]
-}
 
 
-export default function Navbar(props:NavbarProps) {
+export default function Navbar() {
+  const linksTitle = [
+    {
+      id:"1",
+      title: "Blog"
+    },
+    {
+      id:"2",
+      title:"Investors Update"
+    }, 
+    {
+      id:"3",
+      title:"Patner with us"
+    },
+    {
+      id:"4",
+      title:"Raise on daba"
+    }, 
+    
+  ]
   return (
     <Flex
     py={"2rem"}
@@ -38,15 +52,7 @@ export default function Navbar(props:NavbarProps) {
          gap={"2rem"}
          listStyleType={"none"}
          >
-          {props.linkstitle.map( titles => {
-             return (
-              <Box as={"li"} key={titles.id}>
-                <Link 
-                 fontSize={"16px"}
-                >{titles.title}</Link>
-              </Box>
-             )
-          })}
+         <Navlist linkstitle={linksTitle} />
         </Flex>
 
         <Buttons />
