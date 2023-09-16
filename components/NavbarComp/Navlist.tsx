@@ -14,7 +14,7 @@ export default function Navlist(props:NavlistProps) {
       {props.linkstitle.map( titles => {
         return (
           <Box key={titles.id} as="li">
-            <Link color={"#16054E"} fontSize={"16px"}>{titles.title}</Link>
+            <Link color={"#16054E"} fontSize={"13px"}>{titles.title}</Link>
           </Box>
         )
       })}

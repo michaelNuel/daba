@@ -9,7 +9,7 @@ export default function Buttons() {
     color={"white"}
     px={"2rem"}
     border={"1px"}
-    fontSize={"14px"}
+    fontSize={"10px"}
     borderRadius={"20px"}
     >
       Join the waitlist

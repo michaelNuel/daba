@@ -36,7 +36,7 @@ export default function Navbar() {
         <Image 
           src="Img/LogoImg/Group.svg"
           alt="logo"
-          height={5}
+          height={7}
           objectFit={"contain"}
         />
       </Box>     
