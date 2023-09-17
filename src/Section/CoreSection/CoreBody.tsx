@@ -27,30 +27,44 @@ export default function CoreBody() {
       mt={"3rem"} border={"1px"} 
       borderColor={"transparent"}
       borderRadius={"20px"}
-      height={400}
-      mx={"4rem"}
+      // height={400}
+      // mx={"4rem"}
     >
       <Flex justifyContent={"space-around"}>
         <Box 
           alignSelf={"center"} 
-          mt={"8.6rem"} 
+          // mt={"8.6rem"} 
           // m={"auto"}
           width={300}>
             <Heading color={"white"}>Diversified Assets</Heading>
-            <Text mt={"1rem"} lineHeight={"30px"} color={"white"}>Your first mobile app for investing and trading the best African startups, stocks and digital assets at once.</Text>
+            <Text mt={"1rem"}  lineHeight={"30px"} color={"white"}>Your first mobile app for investing and trading the best African startups, stocks and digital assets at once.</Text>
+            <div
+              //  mt={"-20rem"}
+              className="miniImgCore"
+               >
+                <MiniImgCore stock={stocks} />
+             </div>
         </Box>
-
+            {/* <div
+              //  mt={"-20rem"}
+              className="miniImgCore"
+               >
+                <MiniImgCore stock={stocks} />
+             </div> */}
         <Box>
             <Image 
-             translateY={"-60%"}
+            //  translateY={"-40%"}
              src={"/Img/portrait-cool-man-with-sunglasses-copy-space-removebg-preview 2.svg"}
              alt={"potrait-cool-man-with-sunglasses"}
              height={330}
-             mt={"4.3rem"}
+            //  mt={"4.3rem"}
             />
-              <Box mt={"-20rem"}>
+              {/* <div
+              //  mt={"-20rem"}
+              className="miniImgCore"
+               >
                 <MiniImgCore stock={stocks} />
-             </Box>
+             </div> */}
         </Box>
               {/* <Box>
                 <MiniImgCore stock={stocks} />

@@ -1,6 +1,7 @@
 import { Box, Container } from "@chakra-ui/react";
 import Headingss from "../../../components/HeadingTexts/Headingss";
 import CoreBody from "./CoreBody";
+import PreBuiltSec from "./PreBuiltSec";
 
 
 export default function Core() {
@@ -11,6 +12,7 @@ export default function Core() {
           <Headingss texts="Our Core" />
         </Box>
         <CoreBody />
+        <PreBuiltSec />
        </Container>
     </Box>
   )

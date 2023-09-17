@@ -10,3 +10,9 @@ body{
     font-family: 'Montserrat';
     /* background-color: Red; */
 }
+
+.miniImgCore{
+    /* transform: translateX(200%); */
+    transform: translate( 200%, -300%);
+    
+}
