@@ -1,5 +1,6 @@
 import React from 'react'
 import { Box, Card, CardBody, CardHeader,Heading, Image, Text } from '@chakra-ui/react'
+// import { Horse, Heart, Cube } from "phosphor-react";
  type CardssProps ={
    prosCard:{
     id:string
