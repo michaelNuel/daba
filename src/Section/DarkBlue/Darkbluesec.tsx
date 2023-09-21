@@ -12,7 +12,7 @@ export default function Darkbluesec() {
                    <Text mt={"2rem"} color={"white"}>Access exclusive, comprehensive and easy to understand market intelligence and investment research reprots</Text>
                  </Box>
                   <Box mt={"2rem"}>
-                     <Buttons />
+                     <Buttons buttons="Join waitlist" />
                  </Box>
             </Flex>
 

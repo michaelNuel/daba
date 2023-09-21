@@ -1,7 +1,9 @@
 import { Button } from "@chakra-ui/react";
+type ButtonsProps ={
+  buttons: string
+}
 
-
-export default function Buttons() {
+export default function Buttons(props:ButtonsProps) {
   return (
     <Button
     bgColor={"#8D6CFA"}
@@ -12,7 +14,7 @@ export default function Buttons() {
     fontSize={"10px"}
     borderRadius={"20px"}
     >
-      Join the waitlist
+      {props.buttons}
     </Button>
   )
 }

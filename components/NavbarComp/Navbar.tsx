@@ -55,7 +55,7 @@ export default function Navbar() {
          <Navlist linkstitle={linksTitle} />
         </Flex>
 
-        <Buttons />
+        <Buttons buttons="Join waitlist"/>
       </Flex>
 
     </Flex>

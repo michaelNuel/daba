@@ -11,7 +11,7 @@ export default function Inputbar() {
         fontSize={".7rem"}
        />
 
-       <Buttons />
+       <Buttons buttons="Join waitlist" />
     </Flex>
   )
 }
