@@ -10,7 +10,7 @@ export default function Investt() {
           <Flex justifyContent={"space-between"}>
             <Box alignSelf={"center"} > 
                <Headingss texts="New to Investing in Africa?"/>
-               <Text w={400} mt={"1rem"}>Download Free Ebook now to learn more about investing in Africa 101</Text>
+               <Text w={400} mb={"2rem"} mt={"1rem"}>Download Free Ebook now to learn more about investing in Africa 101</Text>
                <Buttons buttons="Download For Free" />
              </Box>
              <Box>

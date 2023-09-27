@@ -14,7 +14,7 @@ export default function Cardss(props:CardssProps) {
     <>
     {props.prosCard.map( gridCards => {
       return (
-        <Card borderRadius={"20px"}>
+        <Card key={gridCards.id} borderRadius={"20px"}>
         <CardHeader margin={"auto"}>
           <Box as={"div"} position={"absolute"} top={-20} right={105}  left={105}   margin={"auto"} className='card_container'>
              <Image 
