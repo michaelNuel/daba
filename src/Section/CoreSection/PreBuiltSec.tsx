@@ -2,7 +2,7 @@ import { Box, Card, CardBody, Container, Flex, Heading, Image,  SimpleGrid, Text
 import Headingss from "../../../components/HeadingTexts/Headingss";
 import StartupBar from "../../../components/StartupBar";
 // need to come back and make some chnages 
-export default function () {
+export default function PreBuiltSec() {
   return (
     <SimpleGrid column={1} minChildWidth={"300px"} gap={4} py={"3rem"}>
             <Card  borderRadius={"20px"} pt={"3rem"}>
