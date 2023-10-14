@@ -11,6 +11,7 @@ export default function Buttons(props:ButtonsProps) {
     color={"white"}
     px={"2rem"}
     border={"1px"}
+    borderColor={"transparent"}
     fontSize={"10px"}
     borderRadius={"20px"}
     >

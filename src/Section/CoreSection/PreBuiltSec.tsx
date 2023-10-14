@@ -4,7 +4,11 @@ import StartupBar from "../../../components/StartupBar";
 // need to come back and make some chnages 
 export default function PreBuiltSec() {
   return (
-    <SimpleGrid column={1} minChildWidth={"300px"} gap={4} py={"3rem"}>
+    <SimpleGrid 
+    column={1} 
+    minChildWidth={"300px"}
+     gap={4} 
+     py={"3rem"}>
             <Card  borderRadius={"20px"} pt={"3rem"}>
                <CardBody>
                <Box w={408} alignSelf={"center"} mx={"4rem"}>
@@ -50,6 +54,7 @@ export default function PreBuiltSec() {
                     alt={"#"}
                     src={"/women.svg"}
                     height={250}
+                     objectFit={"contain"}
                     />
                  </Flex>
                </CardBody>

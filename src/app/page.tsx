@@ -5,8 +5,10 @@ import Darkbluesec from "@/Section/DarkBlue/Darkbluesec";
 import Heropage from "@/Section/HeroFollder/Heropage";
 import Investsec from "@/Section/Investt/Investsec";
 import Investt from "@/Section/Investt/Investtt";
+import Join from "@/Section/Join/Join";
 import Pros from "@/Section/Pros/Pros";
-import { Box, Text } from "@chakra-ui/react";
+import Dabacity from "@/Section/Society/Dabacity";
+import { Box, Container } from "@chakra-ui/react";
 
 export default function Home() {
   return (
@@ -21,6 +23,8 @@ export default function Home() {
        <Communitysec />
        <Investsec />
        <Investt />
+       <Dabacity />
+       <Join />
     </Box>
   )
 }
