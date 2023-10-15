@@ -14,12 +14,18 @@ export default function Cardss(props:CardssProps) {
     <>
     {props.prosCard.map( gridCards => {
       return (
-        <Card key={gridCards.id} borderRadius={"20px"}>
-        <CardHeader margin={"auto"}>
-          <Box as={"div"} position={"absolute"} top={-20} right={105}  left={105}   margin={"auto"} className='card_container'>
+        <Card key={gridCards.id} borderRadius={"20px"} mt={{base:"3rem", lg:"none"}}>
+        <CardHeader margin={"auto"} alignItems={"center"}  alignSelf={"center"} >
+          <Box as={"div"} 
+          // position={"absolute"} 
+          alignSelf={"center"}
+          // top={-20} right={105}  left={105}   
+          // margin={"auto"} 
+          mt={"-3rem"}
+          className='card_container'>
              <Image 
               alt={"#"}
-              height={130}
+              height={100}
               src={gridCards.imageIcon}
              />
           </Box>

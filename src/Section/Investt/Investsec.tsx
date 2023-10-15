@@ -10,14 +10,14 @@ export default function Investsec() {
             <Heading color={"#16054E"}>Your Time to Invest in Africa is <span id="Now! Hop on!" className="span">  Now! Hop on!</span></Heading>
           </Box>
 
-          <Flex justifyContent={"space-around"}>
+          <Flex justifyContent={"space-around"} flexDir={{base:"column", lg:"row"}}>
             <Box position={"relative"}>
                <Image
                 alt={"#"}
                 height={350}
                 src={"/Invest/dudeWithVr.svg"}
                />
-               <Box position={"absolute"} top={3} right={15} zIndex={100000}><PlusCircle size={26}  color={"white"} /></Box>
+               <Box position={"absolute"} top={{base:14, lg:3}} right={15} zIndex={100000}><PlusCircle size={26}  color={"white"} /></Box>
             </Box>
             <Box position={"relative"}>
                 <Image 
@@ -25,7 +25,7 @@ export default function Investsec() {
                  height={350}
                  src={"/Invest/Steps.svg"}
                 />
-                 <Box position={"absolute"} top={3} right={15} zIndex={100000}><PlusCircle size={26} color={"white"} /></Box>
+                 <Box position={"absolute"} top={{base:14, lg:3}} right={15} zIndex={100000}><PlusCircle size={26} color={"white"} /></Box>
             </Box>
           </Flex>
        </Container>

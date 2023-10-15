@@ -8,10 +8,11 @@ export default function PreBuiltSec() {
     column={1} 
     minChildWidth={"300px"}
      gap={4} 
+     mt={{base:"2rem", lg:"none"}}
      py={{base:"1rem", lg:"3rem"}}>
             <Card  borderRadius={"20px"} pt={"3rem"}>
-               <CardBody>
-               <Box w={{base:290, lg:408}} alignSelf={"center"} mx={"4rem"}>
+               <CardBody alignSelf={"center"}>
+               <Box w={{base:290, lg:408}} alignSelf={"center"} mx={{base:"none", lg:"4rem"}}>
                  <Headingss texts="Pre-Built Portfolios" />
                  <Text py={"2rem"} lineHeight={"30px"} color={"#8B82A7"}>With borderless, quick, and low-cost crypto transactions, you can expand your business worldwide.</Text>
                </Box>
@@ -50,7 +51,7 @@ export default function PreBuiltSec() {
                 <Heading color={"white"}>Social Investing</Heading>
                 <Text py={"2rem"} lineHeight={"30px"} color={"white"}>Follow experts and invest with your friends. Discuss and share investment ideas and strategies</Text>
                 </Box>
-                 <Flex mx={"4rem"}>
+                 <Flex mx={"4rem"} display={{base:"none", lg:"flex"}}>
                     <Image 
                     alt={"#"}
                     src={"/women.svg"}

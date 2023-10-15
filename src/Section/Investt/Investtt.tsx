@@ -11,9 +11,11 @@ export default function Investt() {
             <Box alignSelf={"center"} > 
                <Headingss texts="New to Investing in Africa?"/>
                <Text w={400} mb={"2rem"} mt={"1rem"}>Download Free Ebook now to learn more about investing in Africa 101</Text>
-               <Buttons buttons="Download For Free" />
+                <Box margin={{base:"auto", lg:"none"}}>
+                  <Buttons buttons="Download For Free" />
+               </Box>
              </Box>
-             <Box>
+             <Box display={{base:"none", lg:"block"}}>
                 <Image 
                   alt="#"
                   src={"/book.svg"}

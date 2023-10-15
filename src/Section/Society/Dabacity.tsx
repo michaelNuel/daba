@@ -6,11 +6,11 @@ export default function Dabacity() {
     <Box bgImage={"/daba city 1.png"} bgRepeat={"none"} h={"90vh"} >
         <Box >
          <Flex flexDir={"column"} gap={3} alignSelf={"center"} >
-          <Box w={"703px"} mt={"14rem"}  mx={"auto"} >
+          <Box w={{base:"358px", md:"503px", lg:"703px"}} mt={{base:"22rem", lg:"14rem"}}  mx={"auto"} >
            <Text 
             fontWeight={700}
-            fontSize={"48px"}
-            lineHeight={"72px"}
+            fontSize={{base:"24px", md:"36px", lg:"48px"}}
+            lineHeight={{base:"30px", md:"40px", lg:"72px"}}
             textAlign={"center"}
             color={"white"}
            >Bringing the African Capital Markets straight to you</Text>

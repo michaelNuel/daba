@@ -3,7 +3,7 @@ import Buttons from "../../../components/ButtonComp/Buttons";
 
 export default function Darkbluesec() {
   return (
-    <Box bgColor={"#060125"} bgImage={"/Vector.svg"}>
+    <Box bgColor={"#060125"} bgImage={"/Vector.svg"} pb={{base:"2rem", lg:"none"}}>
       <Container maxWidth={"7xl"}>
          <Flex justifyContent={"space-between"} pt={"3rem"}>
             <Flex flexDir={"column"} alignSelf={"center"}>
@@ -16,7 +16,7 @@ export default function Darkbluesec() {
                  </Box>
             </Flex>
 
-            <Box>
+            <Box display={{base:"none", md:"none", lg:"block"}}>
                 <Image 
                  alt={"#"}
                  src={"/bluePage/Woman hand.svg"}

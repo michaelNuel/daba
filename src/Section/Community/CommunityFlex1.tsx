@@ -4,7 +4,7 @@ import { Box, Flex, Heading, Image, Text } from "@chakra-ui/react";
 export default function CommunityFlex1() {
   return (
     <Box mt={"3rem"}>
-       <Flex justifyContent={"space-around"}>
+       <Flex justifyContent={"space-around"} flexDir={{base:"column", lg:"row"}}>
         <Box>
             <Image
              alt={"#"}
@@ -13,7 +13,7 @@ export default function CommunityFlex1() {
             />
         </Box>
 
-        <Box alignSelf={"center"} w={400}>
+        <Box alignSelf={"center"} w={{ base:350, md:400, lg:400}}>
               <Heading mb={".5rem"} color={"#16054E"}>Build Community</Heading>
               <Text mt={".5rem"} color={"#8B82A7"}>We're on a mission to build Africa’s largest online community of investors and enthusiasts interested in investing in Africa. Join groups that match your interests and discuss the latest investing trends.</Text>
           </Box>
