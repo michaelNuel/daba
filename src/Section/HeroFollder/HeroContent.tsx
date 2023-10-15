@@ -12,7 +12,7 @@ export default function HeroContent() {
             </Box>
             <Inputbar />
         </Box>
-        <Box>
+        <Box display={{base:"none", md:"none", lg:"block"}}>
             <Image
              alt={"hero_Image"}
              src={"/Img/Flying iPhone X Mockups copy 1.svg"}

@@ -44,6 +44,7 @@ export default function Navbar() {
       <Flex 
        flexDirection={"row"}
        gap={"4rem"}
+       display={{base:"none", md:"none", lg:"flex" }}
        alignItems={"center"}
       >
         <Flex

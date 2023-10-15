@@ -8,20 +8,21 @@ export default function PreBuiltSec() {
     column={1} 
     minChildWidth={"300px"}
      gap={4} 
-     py={"3rem"}>
+     py={{base:"1rem", lg:"3rem"}}>
             <Card  borderRadius={"20px"} pt={"3rem"}>
                <CardBody>
-               <Box w={408} alignSelf={"center"} mx={"4rem"}>
+               <Box w={{base:290, lg:408}} alignSelf={"center"} mx={"4rem"}>
                  <Headingss texts="Pre-Built Portfolios" />
                  <Text py={"2rem"} lineHeight={"30px"} color={"#8B82A7"}>With borderless, quick, and low-cost crypto transactions, you can expand your business worldwide.</Text>
                </Box>
                 <Flex mx={"4rem"} >
+                  <Box display={{base:"none", lg:"block"}}>
                     <Image 
                      alt={"#"}
                      src={"/woman.svg"}
                      height={250}
                     />
-                   
+                   </Box>
                  <Box>  
                   <Flex flexDir={"column"} bgColor={"#F8F8FD"} height={180} w={150} p={"1rem"} borderRadius={"20px"}>
                      <Box margin={"auto"} >

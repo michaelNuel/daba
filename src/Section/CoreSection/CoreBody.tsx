@@ -27,6 +27,7 @@ export default function CoreBody() {
       mt={"3rem"} border={"1px"} 
       borderColor={"transparent"}
       borderRadius={"20px"}
+      py={{base:"1rem", lg:"none"}}
       // height={400}
       // mx={"4rem"}
     >
@@ -38,12 +39,12 @@ export default function CoreBody() {
           width={300}>
             <Heading color={"white"}>Diversified Assets</Heading>
             <Text mt={"1rem"}  lineHeight={"30px"} color={"white"}>Your first mobile app for investing and trading the best African startups, stocks and digital assets at once.</Text>
-            <div
+            <Box display={{base:"none", lg:"block"}}
               //  mt={"-20rem"}
               className="miniImgCore"
                >
                 <MiniImgCore stock={stocks} />
-             </div>
+             </Box>
         </Box>
             {/* <div
               //  mt={"-20rem"}
@@ -51,7 +52,7 @@ export default function CoreBody() {
                >
                 <MiniImgCore stock={stocks} />
              </div> */}
-        <Box>
+        <Box display={{base:"none", lg:"block"}}>
             <Image 
             //  translateY={"-40%"}
              src={"/Img/portrait-cool-man-with-sunglasses-copy-space-removebg-preview 2.svg"}

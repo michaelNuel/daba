@@ -3,7 +3,7 @@ import Buttons from "../ButtonComp/Buttons";
 
 export default function Inputbar() {
   return (
-    <Flex justifyContent={"space-between"} mt={"2rem"}>
+    <Flex justifyContent={"space-between"} mt={{base:"2rem", lg:"2rem"}} mr={{base:"1rem", lg:"none"}}>
        <Input 
         placeholder="Enter Email Addresss"
         backgroundColor={"white"}
